@@ -1,0 +1,27 @@
+
+1、DSL：Domain Specific Language
+    领域特定语言
+    groovy是 DSL 中的一种
+
+2、groovy介绍：
+    是一种基于 JVM 的敏捷开发语言
+    结合了 Python、Ruby、Smalltalk 的许多强大的特性
+    groovy可以与 Java 完美结合，可以使用 Java 所有的库
+
+3、groovy特性：
+    语法上支持 动态类型、闭包等新一代语言特性
+    无缝集成所有已经存在的 Java 类库
+    即支持面向对象编程(开发应用)，也支持面向过程编程(开发脚本)
+
+4、groovy环境搭建：
+    1.安装 JDK
+    2.到官网下载 groovySDK，解压到合适的位置
+    3.在电脑中配置 groovy 环境变量
+      export PATH=$PATH:/Users/liuchuanchi/install/groovy-3.0.2/bin
+    4.验证是否成功
+      groovy -version
+
+5、开发工具安装与配置：
+    1.安装 IntelliJ (基础版就行了，不然还得破解)
+    2.配置 groovy 工程环境 (新版本不用，老版本需要)
+      Preferences -> 搜索框输入 plugin -> 搜索框输入 groovy，然后安装，之后重启就行了
